@@ -1,6 +1,6 @@
 FROM debian:bullseye-slim
 
-# For intel-mkl
+# For intel-oneapi
 RUN echo "deb http://deb.debian.org/debian buster main contrib non-free \
     deb-src http://deb.debian.org/debian buster main contrib non-free \
     deb http://deb.debian.org/debian-security/ buster/updates main contrib non-free \

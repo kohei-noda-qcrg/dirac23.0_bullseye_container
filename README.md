@@ -22,7 +22,7 @@ docker compose up -d
 - Enter the container:
 
 ```bash
-docker exec -it dirac_build bash
+docker exec -it dirac_build_bullseye bash
 ```
 
 - Build and test DIRAC:

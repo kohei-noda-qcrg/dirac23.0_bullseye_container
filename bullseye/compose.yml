@@ -1,7 +1,7 @@
 services:
   dcaspt2:
-    container_name: 'dirac_build'
-    hostname: 'dirac_build'
+    container_name: 'dirac_build_bullseye'
+    hostname: 'dirac_build_bullseye'
     build:
       context: .
       dockerfile: Dockerfile
