@@ -1,4 +1,4 @@
-# dirac23.0_bullseye_container
+# dirac23.0_container_for_build
 
 ## Description
 
@@ -9,13 +9,13 @@
 - Clone the repository:
 
 ```bash
-git clone https://github.com/kohei-noda-qcrg/dirac23.0_bullseye_container.git
+git clone https://github.com/kohei-noda-qcrg/dirac23.0_container_for_build.git
 ```
 
-- Build the container:
+- Build the container(bullseye)
 
 ```bash
-cd dirac23.0_bullseye_container
+cd dirac23.0_container_for_build/bullseye
 docker compose up -d
 ```
 
