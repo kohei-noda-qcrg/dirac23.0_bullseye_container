@@ -49,7 +49,7 @@ export NPROCS=replace_with_number_of_cores_on_your_machine
 ./setup --mpi --fc=mpiifort --cc=mpiicc --cxx=mpiicpc && cmake --build build -j$NPROCS && ctest --test-dir ./build -j$NPROCS
 ```
 
-- Test results:
+## Test results (on my machine):
 
   - bullseye
 
